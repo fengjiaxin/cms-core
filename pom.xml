@@ -33,6 +33,10 @@
 		<artifactId>hibernate-validator</artifactId>
 	</dependency>
 	<dependency>
+		  <groupId>commons-lang</groupId>
+		  <artifactId>commons-lang</artifactId>
+	</dependency>
+	<dependency>
 		<groupId>org.dbunit</groupId>
 		<artifactId>dbunit</artifactId>
 	</dependency>
@@ -40,6 +44,11 @@
     <dependency>
       <groupId>org.feng.basic</groupId>
       <artifactId>basic-hibernate</artifactId>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.feng.basic</groupId>
+      <artifactId>basic-common</artifactId>
     </dependency>
   </dependencies>
 </project>
